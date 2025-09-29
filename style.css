@@ -50,7 +50,7 @@
 :root {
   --black: #000000;
   --blue: #8895f5;
-  --sky-blue: #8895f5;
+  --sky-blue: #78e1f3;
   --light-gray: #f7f7fd;
   --dim-white: #f9fafb;
 }
@@ -72,3 +72,57 @@ body {
 .bold{
   font-weight: bold !important;
 }
+.w-90{
+  width: 94.45% !important;
+
+}
+.h-65{
+  height:100vh !important;
+}
+.hero{
+  --_gradient-blend-mode: normal;
+--_gradient-blur: 20px;
+
+background: radial-gradient(at 87.5% 83%, #8895f5 0px, transparent 50%), radial-gradient(at 9.4% 81.9%, #78e1f3 0px, transparent 50%) #f9fafb;;
+mix-blend-mode: var(--_gradient-blend-mode);
+}
+
+.frosted-backdrop {
+backdrop-filter: blur(var(--_gradient-blur)) contrast(100%) brightness(100%);
+-webkit-backdrop-filter: blur(var(--_gradient-blur)) contrast(100%) brightness(100%);
+}
+.Loan{
+  height: 30px;
+  font-weight: 150px;
+  border: 2px solid var(--sky-blue);
+  font-style: normal;
+  padding-left: 6px;
+  border-radius:15px ;
+
+}
+.mt-100{
+  margin-top:100px !important ;
+}
+.container1{
+  display: flex;
+  gap:20px;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.items:nth-child(1),
+.items:nth-child(2),
+.items:nth-child(3),
+.items:nth-child(4){
+ width: 550px;
+ flex-grow: 1;
+ justify-self: center;
+ justify-content: center;
+ justify-items: center;
+
+}
+.img{
+position: relative; 
+  left: 98px;
+}
+
